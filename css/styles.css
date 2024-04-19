@@ -126,6 +126,7 @@ color: #2e2f42;
             letter-spacing: 0.02em;
             text-align: center;
             color: #2e2f42;
+            text-transform: capitalize;
 }
 .section-our_team .title{
     font-weight: 500;
@@ -144,11 +145,13 @@ color: #2e2f42;
         color: #434455;
 }
 .section-our_team{
-background: #f4f4fd;
+background-color: #FFFFFF;
 }
+/*
 .our_team-list-item{
    background-color: #FFFFFF;
-}
+} 
+*/
 
 /*-------------------------*/
 .section-our_portfolio .section-title{
