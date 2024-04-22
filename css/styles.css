@@ -9,8 +9,7 @@ ul{
     list-style-type: none;
 }
 a{
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 address{
@@ -54,15 +53,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455; 
 }
-.address-menu .link:hover {        
+.address-menu .link:hover, 
+.address-menu .link:focus {        
         color: #404bbf;
 }
-.address-menu .link:focus {
-    color: #404bbf;
-}
+
 /*--------------- -HERO------------*/
 .section-hero .title{
-  
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -82,14 +79,12 @@ color: #fff;
          cursor: pointer;
             
 }
-.button-hero:hover {
-
-    background: #404bbf;
-}
+.button-hero:hover, 
 .button-hero:focus {
 
     background: #404bbf;
 }
+
 .section-hero{
     background: #2e2f42;
 }
@@ -148,7 +143,7 @@ color: #2e2f42;
 background-color: #F4F4FD;
 }
 
-.our_team-list-item{
+.list-item{
     background-color: #FFFFFF;
 } 
 
@@ -177,7 +172,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*-----------------------*/
+/*----------footer-------------*/
 
 .footer-page .text {
         font-weight: 400;
